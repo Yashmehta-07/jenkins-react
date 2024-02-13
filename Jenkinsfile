@@ -13,7 +13,7 @@ pipeline {
                 // Your steps for stage Two
             }
             // Prompt for input before proceeding
-            input('Do you want to proceed?')
+            input(message: 'Do you want to proceed?')
         }
         
         stage('Three') {
