@@ -10,7 +10,7 @@ pipeline {
         
         stage('Two') {
             steps {
-                // Your steps for stage Two
+                echo "2nd stage"
             }
             // Prompt for input before proceeding
             input(message: 'Do you want to proceed?')
