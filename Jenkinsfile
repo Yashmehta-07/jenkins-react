@@ -13,7 +13,9 @@ pipeline {
                 echo "2nd stage"
             }
             // Prompt for input before proceeding
-            input(message: 'Do you want to proceed?')
+            input {
+                message 'Do you want to proceed?'
+            }
         }
         
         stage('Three') {
