@@ -1,0 +1,8 @@
+services:
+  myreactapp:
+    build: ./
+    container_name: myreactapp
+    ports:
+      - 8000:3000
+   
+   
